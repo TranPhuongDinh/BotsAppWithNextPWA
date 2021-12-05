@@ -1,0 +1,22 @@
+.registerImgBot {
+    @apply w-80 mr-10;
+    @media (max-width: 768px) {
+        @apply mr-0 mb-10;
+    }
+}
+
+.register {
+    @apply flex justify-center items-center w-full h-screen bg-gray-100;
+    background: url("../public/img/loginBackground.jpg") center no-repeat;
+
+    @media (max-width: 768px) {
+        @apply flex-col items-center;
+    }
+}
+
+.btnRegister {
+    @apply bg-green-200 px-10 py-2 rounded uppercase font-semibold transition-all;
+    &:hover {
+        @apply bg-green-500 cursor-pointer;
+    }
+}

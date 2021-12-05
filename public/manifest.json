@@ -1,0 +1,39 @@
+{
+    "short_name": "Bot",
+    "name": "Bot Test",
+    "description": "",
+    "icons": [
+        {
+            "src": "/icons/android-36x36.png",
+            "type": "image/png",
+            "sizes": "36x36"
+        },
+        {
+            "src": "/icons/android-48x48.png",
+            "type": "image/png",
+            "sizes": "48x48"
+        },
+        {
+            "src": "/icons/android-72x72.png",
+            "type": "image/png",
+            "sizes": "72x72"
+        },
+        {
+            "src": "/icons/android-96x96.png",
+            "type": "image/png",
+            "sizes": "96x96"
+        },
+        {
+            "src": "/icons/maskable.png",
+            "type": "image/png",
+            "sizes": "192x192",
+            "purpose": "maskable"
+        }
+    ],
+    "shortcuts": [],
+    "start_url": "/",
+    "background_color": "#FFFFFF",
+    "display": "standalone",
+    "scope": "/",
+    "theme_color": "#000000"
+}
